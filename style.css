@@ -1,0 +1,192 @@
+/**/
+header{
+    background-color: #F6CD26; 
+    padding: 20px 0;
+}
+
+body{
+    background-color: #D5D8DC;
+}
+
+.caja{
+    position:relative;
+    width: 940;
+    margin: 0 auto;
+}
+
+header h1 .logo-principal{
+    width: 10%;
+    height: 10%;
+    padding: 0px 50px;
+}
+
+nav{
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 50px;
+}
+
+.productos{
+    padding: 10px 0;
+    width: 940px;
+    margin: 0 auto;   
+}
+
+.productos .ingreseTexto{
+    background-color: #919294;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #D5D8DC;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.productos .ingreseTexto:hover{
+    border-color: #F6CD26;
+}
+
+.productos .imprimeTexto{
+    background-color: #919294;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    width: 600px;
+    height: 300px;
+    border: 2px solid #D5D8DC;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.productos .imprimeTexto:hover{
+    border-color: #F6CD26;
+}
+
+
+.productos li{
+    display: inline-block;
+}
+
+.botones .btnEncriptar{
+    display: inline-block;
+    margin: 0 100px;
+
+    padding: 10px 0;
+    width: 400px;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 550px;
+    left: 100px;
+
+    color: black; 
+    border: 2px solid black;
+    background: #F6CD26;
+    padding: 10px 40px;
+    font-weight: bold; 
+    font-size: 22px; 
+    border-radius: 32px;
+}
+
+.botones .btnDesencriptar{ 
+    display: inline-block;
+    margin: 0 100px;
+
+    padding: 10px 0;
+    width: 220px;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 550px;
+    left: 650px;    
+
+    color: black; 
+    border: 2px solid black;
+    background: #F6CD26;
+    padding: 10px 40px;
+    font-weight: bold; 
+    font-size: 22px; 
+    border-radius: 32px;
+}
+
+.botones .btn3{
+    display: inline-block;
+    margin: 0 100px;
+
+    padding: 10px 0;
+    width: 220px;
+    margin: 0 auto;
+
+    position: absolute;
+    top: 550px;
+    left: 940px;
+
+    color: black; 
+    border: 2px solid black;
+    background: #F6CD26;
+    padding: 10px 40px;
+    font-weight: bold; 
+    font-size: 22px; 
+    border-radius: 32px;
+}
+
+footer{
+    text-align: center;
+    background: url(/imagenes/pie-de-pagina.png);
+    padding: 40px;
+    margin-top: 500px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main{ 
+    width: 940;
+    margin: 0 auto;
+}
+
+.redes-sociales{
+    display: inline-block;
+    position: absolute;
+    top: 750px;
+    left: 940px;
+}
+
+.icon-github{
+    height: 40px;
+    width: 40px;
+}
+
+.icon-linkedin{
+    height: 43px;
+    width: 43px;
+}
+
+.icon-youtube{
+    height: 43px;
+    width: 43px;
+}
+
+.icon-twitter{
+    height: 43px;
+    width: 43px;
+}
